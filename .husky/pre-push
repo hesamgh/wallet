@@ -1,0 +1,9 @@
+
+# Run ESLint for linting code on all staged files (or specific files if needed)
+npm run lint
+
+# Check exit status of ESLint
+if [ $? -ne 0 ]; then
+  echo "Pre-push checks failed. Please fix the issues before pushing."
+  exit 1
+fi

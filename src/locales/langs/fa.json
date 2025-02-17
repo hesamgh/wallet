@@ -1,0 +1,64 @@
+{
+  "language": {
+    "persian": "فارسی",
+    "english": "انگلیسی",
+    "arabic": "عربی"
+  },
+
+  "action": {
+    "done": "ثبت",
+    "cancel": "انصراف",
+    "back": "مرحله قبل",
+    "next": "مرحله بعد",
+    "save": "ذخیره"
+  },
+
+  "layout": {
+    "displayName": "ادمین",
+    "home": "خانه",
+    "profile": "پروفایل",
+    "logout": "خروج",
+    "navbar": {
+      "dashboard": "پیشخوان",
+      "logout": "خروج"
+    }
+  },
+
+  "table": {
+    "toolbar": {
+      "download": "دانلود",
+      "print": "پرینت",
+      "filter": "فیلتر",
+      "search": "جست و جو",
+      "date_from": "از تاریخ",
+      "date_to": "تا تاریخ",
+      "remove_filter": "حذف فیلترها"
+    },
+
+    "pagination": {
+      "page_range": "صفحه:{{start}} | {{end}} تا {{count}}",
+      "rows_per_page": "ردیف‌ها در هر صفحه",
+      "dense": "فشرده سازی"
+    },
+
+    "table_no_data": "داده ای جهت نمایش وجود ندارد"
+  },
+
+  "tab": {
+    "all": "همه",
+    "pending": "در انتظار",
+    "success": "تایید شده",
+    "rejected": "رد شده"
+  },
+
+  "errors": {
+    "sorry_Page_Not_Found": "با عرض پوزش، صفحه یافت نشد!",
+    "description": "متأسفیم، ما نتوانستیم صفحه مورد نظر شما را پیدا کنیم. شاید شما  URL را اشتباه تایپ کردید، از املایتان مطمئن شوید.",
+    "go_to_Home": "برو صفحه اصلی",
+    "500_Internal_Server_Error": "500 خطای سرور داخلی",
+    "there_was_an_error_please_try_again_later": "خطایی وجود دارد، لطفاً بعداً دوباره امتحان کنید.",
+    "no_permission": "اجازه دسترسی ندارید",
+    "the_page_youre_trying_access_has_restricted_access": "صفحه ای که می خواهید به آن دسترسی پیدا کنید دسترسی اش محدود شده است",
+    "please_refer_to_your_system_administrator": "لطفا به مدیر سیستم خود مراجعه کنید"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Admin",
+  "version": "0.1.0",
+  "author": "Hesam Ghasemi <hesamghasemi86@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "precommit": "lint-staged",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.10.5",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@hookform/resolvers": "^3.9.0",
+    "@iconify/react": "^5.0.1",
+    "@mui/lab": "^5.0.0-alpha.172",
+    "@mui/material": "^5.15.21",
+    "@mui/x-date-pickers": "^6.20.2",
+    "axios": "^1.7.3",
+    "clsx": "^2.1.1",
+    "date-fns": "^2.30.0",
+    "date-fns-jalali": "^2.13.0-0",
+    "framer-motion": "^11.3.2",
+    "i18next": "^23.12.2",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "lodash": "^4.17.21",
+    "mui-one-time-password-input": "^2.0.3",
+    "next": "^14.2.13",
+    "notistack": "^3.0.1",
+    "nprogress": "^0.2.0",
+    "numeral": "^2.0.6",
+    "query-string": "^9.1.0",
+    "react": "^18",
+    "react-apexcharts": "^1.4.1",
+    "react-dom": "^18",
+    "react-dropzone": "^14.2.3",
+    "react-hook-form": "^7.52.1",
+    "react-i18next": "^12.3.1",
+    "react-lazy-load-image-component": "^1.6.2",
+    "react-simple-captcha": "^9.3.1",
+    "simplebar-react": "^3.2.6",
+    "stylis": "^4.2.0",
+    "stylis-plugin-rtl": "^2.1.1",
+    "tronweb": "^6.0.1",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "husky": "^9.1.6",
+    "prettier": "^3.3.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run precommit"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  }
+}

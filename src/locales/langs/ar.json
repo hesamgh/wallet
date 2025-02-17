@@ -1,0 +1,63 @@
+{
+  "language": {
+    "persian": "فارسي",
+    "english": "إنجليزي",
+    "arabic": "عربي"
+  },
+
+  "action": {
+    "done": "تسجيل",
+    "cancel": "إلغاء",
+    "back": "المرحلة السابقة",
+    "next": "المرحلة التالية",
+    "save": "حفظ"
+  },
+
+  "layout": {
+    "displayName": "سمارت أدمن",
+    "home": "الرئيسية",
+    "profile": "الملف الشخصي",
+    "logout": "تسجيل خروج",
+    "navbar": {
+      "logout": "تسجيل خروج"
+    }
+  },
+
+  "table": {
+    "toolbar": {
+      "download": "تحميل",
+      "print": "طباعة",
+      "filter": "فلتر",
+      "search": "بحث",
+      "date_from": "من التاريخ",
+      "date_to": "إلى التاريخ",
+      "remove_filter": "إزالة الفلاتر"
+    },
+
+    "pagination": {
+      "page_range": "الصفحة: {{start}} | {{end}} إلى {{count}}",
+      "rows_per_page": "الصفوف لكل صفحة",
+      "dense": "ضغط"
+    },
+
+    "table_no_data": "لا توجد بيانات للعرض"
+  },
+
+  "tab": {
+    "all": "الكل",
+    "pending": "في انتظار",
+    "success": "موافق عليه",
+    "rejected": "مرفوض"
+  },
+
+  "errors": {
+    "sorry_Page_Not_Found": "عذراً، الصفحة غير موجودة!",
+    "description": "نأسف، لم نتمكن من العثور على الصفحة التي تبحث عنها. ربما قمت بخطأ في كتابة العنوان URL، يرجى التأكد من الكتابة الصحيحة.",
+    "go_to_Home": "اذهب إلى الصفحة الرئيسية",
+    "500_Internal_Server_Error": "500 خطأ في الخادم الداخلي",
+    "there_was_an_error_please_try_again_later": "حدث خطأ، يرجى المحاولة مرة أخرى لاحقاً.",
+    "no_permission": "لا تملك إذن الوصول",
+    "the_page_youre_trying_access_has_restricted_access": "الصفحة التي تحاول الوصول إليها محظورة.",
+    "please_refer_to_your_system_administrator": "يرجى الرجوع إلى مدير النظام الخاص بك."
+  }
+}

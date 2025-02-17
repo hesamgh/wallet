@@ -1,0 +1,15 @@
+
+# Run ESLint for linting code
+npm run lint
+
+# Run Prettier for formatting code
+npm run format
+
+# If you want to work only on changed files, use lint-staged:
+npx lint-staged
+
+# Check exit status of previous commands
+if [ $? -ne 0 ]; then
+  echo "Pre-commit checks failed. Please fix the issues before committing."
+  exit 1
+fi

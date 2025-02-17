@@ -1,0 +1,63 @@
+{
+  "language": {
+    "persian": "Persian",
+    "english": "English",
+    "arabic": "Arabic"
+  },
+
+  "action": {
+    "done": "Submit",
+    "cancel": "Cancel",
+    "back": "Previous Step",
+    "next": "Next Step",
+    "save": "Save"
+  },
+
+  "layout": {
+    "displayName": "Smart Admin",
+    "home": "Home",
+    "profile": "Profile",
+    "logout": "Logout",
+    "navbar": {
+      "logout": "Logout"
+    }
+  },
+
+  "table": {
+    "toolbar": {
+      "download": "Download",
+      "print": "Print",
+      "filter": "Filter",
+      "search": "Search",
+      "date_from": "From Date",
+      "date_to": "To Date",
+      "remove_filter": "Remove Filters"
+    },
+
+    "pagination": {
+      "page_range": "Page: {{start}} | {{end}} of {{count}}",
+      "rows_per_page": "Rows per page",
+      "dense": "Condensed"
+    },
+
+    "table_no_data": "No data available for display"
+  },
+
+  "tab": {
+    "all": "All",
+    "pending": "Pending",
+    "success": "Approved",
+    "rejected": "Rejected"
+  },
+
+  "errors": {
+    "sorry_Page_Not_Found": "Sorry, Page Not Found!",
+    "description": "We're sorry, we couldn't find the page you're looking for. Maybe you mistyped the URL, please check your spelling.",
+    "go_to_Home": "Go to Home",
+    "500_Internal_Server_Error": "500 Internal Server Error",
+    "there_was_an_error_please_try_again_later": "There was an error, please try again later.",
+    "no_permission": "No Access Permission",
+    "the_page_youre_trying_access_has_restricted_access": "The page you're trying to access has restricted access.",
+    "please_refer_to_your_system_administrator": "Please refer to your system administrator."
+  }
+}
