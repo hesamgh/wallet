@@ -4,7 +4,7 @@ import { LandingView } from "@/src/sections/landing/view";
 // ----------------------------------------------------------------------
 
 export const metadata = {
-  title: "ادمین | لندینگ",
+  title: "کیف پول",
 };
 
 export default function Page() {

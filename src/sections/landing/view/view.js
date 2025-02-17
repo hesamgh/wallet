@@ -66,7 +66,7 @@ export default function DashboardView() {
     <Container maxWidth={settings.themeStretch ? false : "lg"}>
       <Box textAlign="center" sx={{ pt: 10 }}>
         <Typography variant="h4" gutterBottom sx={{ mb: 4 }}>
-          کیف پول ترون شما
+          کیف پول ترونی شما علی جان
         </Typography>
         <Box sx={{ mb: 4, maxWidth: 500, mx: "auto" }}>
           <TextField
